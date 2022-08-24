@@ -1,0 +1,9 @@
+<div class="persona">
+    <h2>Nueva Persona</h2>
+    <input type="text" [(ngModel)]="persona.nombre">
+    <p>Nombre: {{persona.nombre}}</p>
+    <p>Apellido: {{persona.apellido}}</p>
+    <p>Edad: {{persona.edad}}</p>
+    <button class="btn" (click)="festejo(persona)">Cumplir Años</button>
+    <button class="btn" (click)="borrarPersona(persona)">¡Eliminar!</button>
+</div>

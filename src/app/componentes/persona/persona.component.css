@@ -1,0 +1,19 @@
+
+h2{
+    font-weight: 500;
+    color: rgb(61, 60, 60);
+}
+p{
+    font-weight: 300;
+}
+input{
+    text-align: center;
+}
+.btn{
+    background-color: darkorange;
+    color: bisque;
+    margin-right: 1em;
+    height: 3em;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+}
